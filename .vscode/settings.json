@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.minimap.enabled": true,
+    "editor.mouseWheelZoom": true,
+    "editor.dragAndDrop": true,
+    "editor.minimap.renderCharacters": false,
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.renderWhitespace": "all"
+    }
+}

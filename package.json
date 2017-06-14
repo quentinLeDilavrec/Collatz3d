@@ -1,0 +1,44 @@
+{
+  "name": "collatz",
+  "version": "1.0.0",
+  "description": "Display of collatz conjecture",
+  "main": "collatz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "webpack --config webpack.config.js"
+  },
+  "author": "Quentin LE DILAVREC",
+  "license": "MIT",
+  "dependencies": {
+    "@typed/compose": "latest",
+    "@types/three": "latest",
+    "three": "latest",
+    "three-orbitcontrols": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinLeDilavrec/Collatz.git"
+  },
+  "keywords": [
+    "collatz",
+    "canvas",
+    "webGL"
+  ],
+  "bugs": {
+    "url": "https://github.com/quentinLeDilavrec/Collatz/issues"
+  },
+  "homepage": "https://github.com/quentinLeDilavrec/Collatz#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "latest",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "json-loader": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "webpack": "^2.6.1"
+  }
+}

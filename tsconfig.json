@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "es2015",
+            "es2015.iterable",
+            "es5",
+            "es6"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "./lib/"
+    },"awesomeTypescriptLoaderOptions": {
+        "useWebpackText": true,
+        "forkChecker": true,
+        "useCache": true
+    },"include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode",
+        "lib"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": false
+}

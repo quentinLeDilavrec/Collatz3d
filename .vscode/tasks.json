@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        /*{
+            "taskName": "Compile",
+            "command": "tsc",
+            "args": [
+                "src/test.ts", ""
+            ],
+            "isShellCommand": true,
+            "options": {
+                "cwd": "${workspaceRoot}"
+            }
+        },
+        {
+            "taskName": "Run",
+            "command": "node",
+            "args": [
+                "src/test.js"
+            ],
+            "isShellCommand": true,
+            "options": {
+                "cwd": "${workspaceRoot}"
+            }
+        },
+        {
+            "taskName": "build",
+            "dependsOn": [
+                "Compile"
+            ]
+        }*/
+    ]
+}
